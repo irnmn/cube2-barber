@@ -1,1 +1,1 @@
-# cube2-barber
+# Сайт BARBERSHOP "CUBE"
