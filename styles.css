@@ -7,9 +7,7 @@
 body {
     font-family: "Comfortaa", sans-serif !important;
     background-color: #1a1a1a;
-    /* Темно-сірий фон */
     color: #f4f4f4;
-    /* Світло-сірий текст */
     overflow-x: hidden;
 }
 
@@ -17,17 +15,14 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Стилі для Preloader */
 #preloader {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #4B3B2F;
-    /* Чорний фон */
-    color: #ffcc00;
-    /* Золотий текст */
+    background-color: #5A3E2F;
+    color: #ffd700;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,26 +30,21 @@ html {
     flex-direction: column;
 }
 
-/* Анімація для логотипу */
 .loader-icon {
     width: 100px;
     height: 100px;
     animation: bounce 1s infinite;
-    /* Задаємо анімацію */
 }
 
-/* Ключові кадри для анімації */
 @keyframes bounce {
 
     0%,
     100% {
         transform: translateY(0);
-        /* Початкова позиція */
     }
 
     50% {
         transform: translateY(-10px);
-        /* Піднімемо логотип вгору */
     }
 }
 
@@ -62,19 +52,16 @@ html {
     margin-top: 20px;
     font-size: 1.2em;
     color: #ffcc00;
-    /* Золотий текст */
 }
 
 #content {
     display: none;
 }
 
-/* Навігація */
 nav {
     position: fixed;
     width: 100%;
-    background-color: #333333;
-    /* Темно-сірий фон */
+    background-color: #5A3E2F;
     z-index: 1000;
 }
 
@@ -91,18 +78,15 @@ nav ul li {
 
 nav ul li a {
     color: #f4f4f4;
-    /* Світло-сірий текст */
     text-decoration: none;
     font-weight: 600;
     transition: color 0.3s;
 }
 
 nav ul li a:hover {
-    color: #ffcc00;
-    /* Золотий при наведенні */
+    color: #ffd700;
 }
 
-/* Шапка */
 header {
     background-size: cover;
     background-position: center;
@@ -133,7 +117,6 @@ header a {
     text-decoration: none;
 }
 
-/* Анімації */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -146,19 +129,6 @@ header a {
     }
 }
 
-@keyframes bounce {
-
-    0%,
-    100% {
-        transform: translateY(0);
-    }
-
-    50% {
-        transform: translateY(-10px);
-    }
-}
-
-/* Секції */
 section {
     padding: 4em 0;
     animation: fadeIn 1.5s ease-in-out;
@@ -169,26 +139,23 @@ section h2 {
     font-size: 2.5em;
     margin-bottom: 1em;
     position: relative;
-    color: #ffcc00;
-    /* Золотий заголовок */
+    color: #ffd700;
 }
 
 section h2::after {
     content: '';
     width: 50px;
     height: 4px;
-    background-color: #ffcc00;
-    /* Золотий */
+    background-color: #ffd700;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     bottom: -10px;
 }
 
-/* Про нас */
-#about {
-    background-color: #D8C3A5; /* Світло-коричневий для фону */
-    color: #333333; /* Темно-сірий для тексту */
+Про нас */ #about {
+    background-color: #1a1a1a;
+    Темно-сірий фон */ color: #f4f4f4;
 }
 
 #about p {
@@ -199,10 +166,8 @@ section h2::after {
     text-align: center;
 }
 
-/* Послуги */
 #services {
-    background-color: #333;
-    /* Сірий фон */
+    background-color: #5A3E2F;
 }
 
 .service-list {
@@ -212,10 +177,9 @@ section h2::after {
 }
 
 .service-item {
-    background-color: #D8C3A5; /* Світло-коричневий для фону */
-    color: #333333; /* Темно-сірий для тексту */
-    border: 1px solid #ffcc00;
-    /* Золота рамка */
+    background-color: #1a1a1a;
+    color: #f4f4f4;
+    border: 1px solid #ffd700;
     width: 30%;
     margin: 1em;
     padding: 1.5em;
@@ -230,20 +194,17 @@ section h2::after {
 }
 
 .service-header {
-    color: #D4AF37; /* Золотий колір для цін */
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 1.5em;
     font-weight: 600;
     padding-bottom: 0.5em;
-    border-bottom: 2px solid #ffcc00;
-    /* Золота лінія */
+    border-bottom: 2px solid #ffd700;
 }
 
 .price {
-    color: #D4AF37; /* Золотий колір для цін */
-    /* Золотий */
+    color: #ffd700;
     white-space: nowrap;
 }
 
@@ -257,13 +218,11 @@ section h2::after {
     color: #777;
     margin-bottom: 0.5em;
     margin-top: 10px;
-
 }
 
-/* Команда */
 #team {
-    background-color: #333;
-    /* Сірий фон */
+    background-color: #5A3E2F;
+    color: #f4f4f4;
 }
 
 .team-list {
@@ -276,8 +235,7 @@ section h2::after {
     width: 30%;
     text-align: center;
     margin: 1em 0;
-    background-color: #D8C3A5; /* Світло-коричневий для фону */
-    color: #333333; /* Темно-сірий для тексту */
+    color: #f4f4f4;
 
 }
 
@@ -296,11 +254,10 @@ section h2::after {
 
 }
 
-/* Кнопка "Записатись" */
 .team-member button {
-    background-color: #D4AF37; /* Золотистий фон */
-    color: #4B3B2F; /* Темно-коричневий текст */
-    border: 2px solid #4B3B2F; /* Темно-коричнева рамка */
+    background-color: #ffd700;
+    color: #000;
+    border: none;
     padding: 10px 20px;
     font-size: 1em;
     border-radius: 5px;
@@ -310,16 +267,13 @@ section h2::after {
 }
 
 .team-member button:hover {
-    background-color: #ffcc33;
+    background-color: #e6b800;
     transform: translateY(-5px);
 }
 
-/* Контакти */
 #contact {
-    background-color: #000;
-    /* Чорний фон */
+    background-color: #5A3E2F;
     color: #f4f4f4;
-    /* Світло-сірий текст */
     text-align: center;
 }
 
@@ -329,29 +283,18 @@ section h2::after {
 }
 
 #contact a {
-    color: #ffcc00;
-    /* Золотий текст */
+    color: #ffd700;
     text-decoration: none;
     font-weight: 600;
 }
 
-/* Футер */
 footer {
-    background-color: #4B3B2F; /* Темно-коричневий фон */
-    color: #FFF; /* Білий текст */
+    background-color: #1a1a1a;
+    color: #f4f4f4;
     text-align: center;
     padding: 1em 0;
 }
 
-footer a {
-    color: #D4AF37; /* Золотистий для посилань */
-}
-
-footer a:hover {
-    color: #B59629; /* Темніший золотий при наведенні */
-}
-
-/* Адаптивність */
 @media (max-width: 1000px) {
     .service-item {
         width: 45%;
@@ -399,84 +342,54 @@ footer a:hover {
 
 .phone-link {
     text-decoration: none;
-    /* Прибирає підкреслення */
     color: inherit;
-    /* Використовує колір тексту батьківського елемента */
 }
 
 .phone-link:hover {
     color: inherit;
-    /* Колір при наведенні */
 }
 
 .button {
     display: inline-block;
-    /* Дозволяє додавати відступи */
     background-color: #ffcc00;
-    /* Золота кнопка */
     color: #000;
-    /* Чорний текст */
-    /* Чорний текст */
     padding: 10px 20px;
-    /* Внутрішні відступи */
     border: 2px solid white;
-    /* Біла рамка */
     border-radius: 25px;
-    /* Овальна рамка */
     text-decoration: none;
-    /* Прибирає підкреслення */
     text-align: center;
-    /* Центрує текст */
     margin-top: 10px;
-    /* Відстань між елементами */
 }
 
 .button:hover {
-    background-color: #B59629; /* Трохи темніший відтінок золота при наведенні */
-    /* Трохи світліший золотий */
+    background-color: #e6b800;
     color: #000;
-    /* Чорний текст */
-    /* Залишається білий текст при наведенні */
 }
 
 .useful-section {
     background-color: #333333;
-    /* Світлий фон */
     color: white;
     padding: 20px;
     width: 100%;
-    /* На всю ширину */
     box-sizing: border-box;
-    /* Включити padding у ширину */
     font-family: "Comfortaa", sans-serif;
-    /* Гарний шрифт */
     text-align: center;
-    /* Центрування тексту */
     border: none;
-    /* Без контурів */
 }
 
 .service-card {
     display: flex;
-    /* Вирівнювання елементів по горизонталі */
     justify-content: center;
-    /* Центрування вмісту */
     border: 1px solid #ddd;
-    /* Легкий контур */
     margin-bottom: 15px;
     max-width: 500px;
-    /* Максимальна ширина картки */
     margin-left: auto;
-    /* Центрування картки */
     margin-right: auto;
-    /* Центрування картки */
 }
 
 .service-image {
     width: 150px;
-    /* Ширина зображення */
     height: auto;
-    /* Автоматичне співвідношення */
 }
 
 .service-info {
@@ -486,33 +399,26 @@ footer a:hover {
 .service-info strong {
     font-size: 20px;
     color: #ffcc33;
-    /* Жовтий колір для назви послуги */
 }
 
 .service-info p {
     font-size: 14px;
     color: #fff;
-    /* Темний колір для опису */
 }
 
 .learn-more {
     display: inline-block;
     margin-top: 10px;
     color: #007bff;
-    /* Синій колір для посилання */
     text-decoration: none;
-    /* Без підкреслення */
 }
 
 .learn-more:hover {
     text-decoration: underline;
-    /* Підкреслення при наведенні */
 }
 
 
 .main-navigation {
-    background-color: #4B3B2F;
-    color: #FFF; /* Білий текст */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -524,7 +430,6 @@ footer a:hover {
 }
 
 .main-navigation .social-links a {
-    color: #D4AF37; /* Золотистий колір для іконок соцмереж */
     text-decoration: none;
 }
 
@@ -564,8 +469,7 @@ footer a:hover {
     width: 100%;
     height: 100%;
     padding: 40px;
-    background-color: #4B3B2F;
-    /* Темно-коричневий фон */
+    background-color: #333333;
     color: #FFF;
     text-align: center;
     z-index: 1001;
@@ -623,7 +527,6 @@ header {
 .carousel-inner img {
     height: 100vh;
     object-fit: cover;
-    /* Зберігає пропорції зображення */
 }
 
 .header-text {
@@ -632,10 +535,8 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
-    /* Колір тексту */
     text-align: center;
     z-index: 10;
-    /* Забезпечує, що текст над зображенням */
 }
 
 .header-text h1 {
@@ -650,21 +551,15 @@ header {
 
 .header-text p {
     margin: 0;
-    /* Знімає відступи */
 }
 
 .header-text {
     width: 100%;
-    /* Задає ширину 100% */
     text-align: -webkit-center;
-    /* Центрує текст (за бажанням) */
     padding: 0 20px;
-    /* Додає бокові відступи, якщо потрібно */
     box-sizing: border-box;
-    /* Уключає padding у загальну ширину */
 }
 
-/* Стилі для модального вікна */
 .modal {
     display: none;
     position: fixed;
@@ -679,9 +574,7 @@ header {
 }
 
 .modal-content {
-    background-color: #D8C3A5 !important;
-    color: #333333; /* Темно-сірий текст */
-    /* Темно-сірий фон з пріоритетом */
+    background-color: #333333 !important;
     margin: auto;
     padding: 20px;
     border-radius: 8px;
@@ -693,7 +586,6 @@ header {
 .modal-content h3 {
     margin-bottom: 15px;
     color: #ffffff;
-    /* Білий колір для заголовка */
 }
 
 .phone-list {
@@ -721,11 +613,10 @@ header {
     margin: 5px 0;
     font-size: 14px;
     color: #ffffff;
-    /* Зробити текст адреси білим для контрасту */
 }
 
 .close {
-    color: #D4AF37; /* Золотий хрестик для закриття */
+    color: #aaa;
     font-size: 28px;
     font-weight: bold;
     position: absolute;
@@ -736,25 +627,4 @@ header {
 
 .close:hover {
     color: #e6b800;
-    /* Світліший золотий при наведенні */
-}
-
-/* Заголовки і текст */
-h1, h2, h3, h4, h5, h6 {
-    color: #4B3B2F; /* Темно-коричневий для заголовків */
-}
-
-p, a {
-    color: #333333; /* Темно-сірий для основного тексту */
-}
-
-/* Посилання */
-a {
-    color: #D4AF37; /* Золотистий для посилань */
-    text-decoration: none;
-}
-
-a:hover {
-    color: #B59629; /* Темніший золотий при наведенні */
-    text-decoration: underline;
 }
