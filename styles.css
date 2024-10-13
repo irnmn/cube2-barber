@@ -187,10 +187,8 @@ section h2::after {
 
 /* Про нас */
 #about {
-    background-color: #1a1a1a;
-    /* Темно-сірий фон */
-    color: #f4f4f4;
-    /* Світло-сірий текст */
+    background-color: #D8C3A5; /* Світло-коричневий для фону */
+    color: #333333; /* Темно-сірий для тексту */
 }
 
 #about p {
@@ -214,10 +212,8 @@ section h2::after {
 }
 
 .service-item {
-    background-color: #1a1a1a;
-    /* Темно-сірий фон карток */
-    color: #f4f4f4;
-    /* Світло-сірий текст */
+    background-color: #D8C3A5; /* Світло-коричневий для фону */
+    color: #333333; /* Темно-сірий для тексту */
     border: 1px solid #ffcc00;
     /* Золота рамка */
     width: 30%;
@@ -234,6 +230,7 @@ section h2::after {
 }
 
 .service-header {
+    color: #D4AF37; /* Золотий колір для цін */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -245,7 +242,7 @@ section h2::after {
 }
 
 .price {
-    color: #ffcc00;
+    color: #D4AF37; /* Золотий колір для цін */
     /* Золотий */
     white-space: nowrap;
 }
@@ -279,10 +276,8 @@ section h2::after {
     width: 30%;
     text-align: center;
     margin: 1em 0;
-    background-color: #333333;
-    /* Темно-сірий */
-    color: #f4f4f4;
-    /* Світло-сірий текст */
+    background-color: #D8C3A5; /* Світло-коричневий для фону */
+    color: #333333; /* Темно-сірий для тексту */
 
 }
 
@@ -303,11 +298,9 @@ section h2::after {
 
 /* Кнопка "Записатись" */
 .team-member button {
-    background-color: #ffcc00;
-    /* Золота кнопка */
-    color: #000;
-    /* Чорний текст */
-    border: none;
+    background-color: #D4AF37; /* Золотистий фон */
+    color: #4B3B2F; /* Темно-коричневий текст */
+    border: 2px solid #4B3B2F; /* Темно-коричнева рамка */
     padding: 10px 20px;
     font-size: 1em;
     border-radius: 5px;
@@ -344,12 +337,18 @@ section h2::after {
 
 /* Футер */
 footer {
-    background-color: #1a1a1a;
-    /* Темно-сірий фон */
-    color: #f4f4f4;
-    /* Світло-сірий текст */
+    background-color: #4B3B2F; /* Темно-коричневий фон */
+    color: #FFF; /* Білий текст */
     text-align: center;
     padding: 1em 0;
+}
+
+footer a {
+    color: #D4AF37; /* Золотистий для посилань */
+}
+
+footer a:hover {
+    color: #B59629; /* Темніший золотий при наведенні */
 }
 
 /* Адаптивність */
@@ -433,7 +432,7 @@ footer {
 }
 
 .button:hover {
-    background-color: #e6b800;
+    background-color: #B59629; /* Трохи темніший відтінок золота при наведенні */
     /* Трохи світліший золотий */
     color: #000;
     /* Чорний текст */
@@ -512,6 +511,8 @@ footer {
 
 
 .main-navigation {
+    background-color: #4B3B2F;
+    color: #FFF; /* Білий текст */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -523,6 +524,7 @@ footer {
 }
 
 .main-navigation .social-links a {
+    color: #D4AF37; /* Золотистий колір для іконок соцмереж */
     text-decoration: none;
 }
 
@@ -562,8 +564,8 @@ footer {
     width: 100%;
     height: 100%;
     padding: 40px;
-    background-color: #333333;
-    /* Темно-сірий фон */
+    background-color: #4B3B2F;
+    /* Темно-коричневий фон */
     color: #FFF;
     text-align: center;
     z-index: 1001;
@@ -677,7 +679,8 @@ header {
 }
 
 .modal-content {
-    background-color: #333333 !important;
+    background-color: #D8C3A5 !important;
+    color: #333333; /* Темно-сірий текст */
     /* Темно-сірий фон з пріоритетом */
     margin: auto;
     padding: 20px;
@@ -722,7 +725,7 @@ header {
 }
 
 .close {
-    color: #aaa;
+    color: #D4AF37; /* Золотий хрестик для закриття */
     font-size: 28px;
     font-weight: bold;
     position: absolute;
@@ -734,4 +737,24 @@ header {
 .close:hover {
     color: #e6b800;
     /* Світліший золотий при наведенні */
+}
+
+/* Заголовки і текст */
+h1, h2, h3, h4, h5, h6 {
+    color: #4B3B2F; /* Темно-коричневий для заголовків */
+}
+
+p, a {
+    color: #333333; /* Темно-сірий для основного тексту */
+}
+
+/* Посилання */
+a {
+    color: #D4AF37; /* Золотистий для посилань */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #B59629; /* Темніший золотий при наведенні */
+    text-decoration: underline;
 }
