@@ -153,9 +153,9 @@ section h2::after {
     bottom: -10px;
 }
 
-Про нас */ #about {
+#about {
     background-color: #1a1a1a;
-    Темно-сірий фон */ color: #f4f4f4;
+    color: #f4f4f4;
 }
 
 #about p {
