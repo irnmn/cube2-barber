@@ -631,6 +631,6 @@ header {
 
 .section-divider {
     border: none;
-    border-top: 0px solid #777;
+    border-top: 1px solid #777;
     margin: 0px 0; /* Невеликі відступи зверху і знизу */
 }
